@@ -13,6 +13,7 @@
 		FD61D6272AC41AC90049C636 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61D6262AC41AC90049C636 /* MainView.swift */; };
 		FD61D6292AC41ACA0049C636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD61D6282AC41ACA0049C636 /* Assets.xcassets */; };
 		FD61D62C2AC41ACA0049C636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD61D62B2AC41ACA0049C636 /* Preview Assets.xcassets */; };
+		FD8FC0882AC6BDDD008A6A64 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8FC0872AC6BDDD008A6A64 /* StarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FD61D6262AC41AC90049C636 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FD61D6282AC41ACA0049C636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD61D62B2AC41ACA0049C636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD8FC0872AC6BDDD008A6A64 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				FD61D6262AC41AC90049C636 /* MainView.swift */,
+				FD8FC0872AC6BDDD008A6A64 /* StarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				FD61D6272AC41AC90049C636 /* MainView.swift in Sources */,
 				FD38D7B62AC6B67700531E9B /* Color+.swift in Sources */,
+				FD8FC0882AC6BDDD008A6A64 /* StarView.swift in Sources */,
 				FD61D6252AC41AC90049C636 /* MellowYellowsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
