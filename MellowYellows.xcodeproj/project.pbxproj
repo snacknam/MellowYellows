@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD38D7A92AC6968E00531E9B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD61D6212AC41AC90049C636 /* MellowYellows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MellowYellows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD61D6242AC41AC90049C636 /* MellowYellowsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellowYellowsApp.swift; sourceTree = "<group>"; };
 		FD61D6262AC41AC90049C636 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		FD61D6232AC41AC90049C636 /* MellowYellows */ = {
 			isa = PBXGroup;
 			children = (
+				FD38D7A92AC6968E00531E9B /* README.md */,
 				FD61D6242AC41AC90049C636 /* MellowYellowsApp.swift */,
 				FD61D6262AC41AC90049C636 /* ContentView.swift */,
 				FD61D6322AC41BB60049C636 /* .gitignore */,
