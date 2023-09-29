@@ -35,6 +35,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD38D7AA2AC6993600531E9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD61D6282AC41ACA0049C636 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD38D7AC2AC6995A00531E9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD38D7AD2AC6996C00531E9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD61D6262AC41AC90049C636 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD38D7AE2AC6997A00531E9B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD38D7AF2AC6998600531E9B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FD38D7B02AC6998D00531E9B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		FD61D6182AC41AC90049C636 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +100,13 @@
 			children = (
 				FD38D7A92AC6968E00531E9B /* README.md */,
 				FD61D6242AC41AC90049C636 /* MellowYellowsApp.swift */,
-				FD61D6262AC41AC90049C636 /* ContentView.swift */,
+				FD38D7AC2AC6995A00531E9B /* Model */,
+				FD38D7AD2AC6996C00531E9B /* View */,
+				FD38D7AE2AC6997A00531E9B /* ViewModel */,
+				FD38D7B02AC6998D00531E9B /* Network */,
+				FD38D7AF2AC6998600531E9B /* Util */,
+				FD38D7AA2AC6993600531E9B /* Resources */,
 				FD61D6322AC41BB60049C636 /* .gitignore */,
-				FD61D6282AC41ACA0049C636 /* Assets.xcassets */,
 				FD61D62A2AC41ACA0049C636 /* Preview Content */,
 			);
 			path = MellowYellows;
