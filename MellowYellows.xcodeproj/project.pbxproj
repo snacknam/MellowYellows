@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD38D7B22AC6B41C00531E9B /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD38D7B12AC6B41C00531E9B /* Color.xcassets */; };
+		FD38D7B62AC6B67700531E9B /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38D7B52AC6B67700531E9B /* Color+.swift */; };
 		FD61D6252AC41AC90049C636 /* MellowYellowsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61D6242AC41AC90049C636 /* MellowYellowsApp.swift */; };
 		FD61D6272AC41AC90049C636 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61D6262AC41AC90049C636 /* MainView.swift */; };
 		FD61D6292AC41ACA0049C636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD61D6282AC41ACA0049C636 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD38D7B12AC6B41C00531E9B /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		FD38D7B52AC6B67700531E9B /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		FD61D6212AC41AC90049C636 /* MellowYellows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MellowYellows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD61D6242AC41AC90049C636 /* MellowYellowsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellowYellowsApp.swift; sourceTree = "<group>"; };
 		FD61D6262AC41AC90049C636 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				FD61D6282AC41ACA0049C636 /* Assets.xcassets */,
+				FD38D7B12AC6B41C00531E9B /* Color.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -65,6 +70,7 @@
 		FD38D7AF2AC6998600531E9B /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				FD38D7B52AC6B67700531E9B /* Color+.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 			files = (
 				FD61D62C2AC41ACA0049C636 /* Preview Assets.xcassets in Resources */,
 				FD61D6292AC41ACA0049C636 /* Assets.xcassets in Resources */,
+				FD38D7B22AC6B41C00531E9B /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD61D6272AC41AC90049C636 /* MainView.swift in Sources */,
+				FD38D7B62AC6B67700531E9B /* Color+.swift in Sources */,
 				FD61D6252AC41AC90049C636 /* MellowYellowsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
