@@ -21,7 +21,6 @@ struct StarView: View {
 }
 
 extension StarView {
-    
     private func randomPosition(padding: CGFloat) -> CGPoint {
         let randomX = CGFloat.random(in: -padding..<UIScreen.main.bounds.width + padding)
         let randomY = CGFloat.random(in: -padding..<UIScreen.main.bounds.height + padding)

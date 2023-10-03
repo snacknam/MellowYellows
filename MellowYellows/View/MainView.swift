@@ -12,6 +12,8 @@ struct MainView: View {
         ZStack {
             Color("background")
                 .ignoresSafeArea()
+            StarView()
+            MoonView()
         }
     }
 }
