@@ -13,8 +13,23 @@ struct MainView: View {
             Color("background")
                 .ignoresSafeArea()
             StarView()
-            MoonView()
+            VStack {
+                HeaderView()
+                MoonView()
+            }
         }
+    }
+}
+
+extension MainView {
+    private func HeaderView() -> some View {
+        VStack(spacing: 4) {
+            Text("October 10")
+                .font(.system(size: 20, weight: .regular))
+            Text("Waning Crescent")
+                .font(.system(size: 40, weight: .medium))
+        }
+        .foregroundColor(.white)
     }
 }
 
