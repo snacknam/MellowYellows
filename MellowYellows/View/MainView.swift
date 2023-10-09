@@ -18,6 +18,10 @@ struct MainView: View {
                 HeaderView()
                 BodyView()
             }
+            VStack {
+                Spacer()
+                ArrowView()
+            }
         }
     }
 }
@@ -42,6 +46,30 @@ extension MainView {
             .frame(height: 140, alignment: .top)
             .padding(.horizontal, 24)
             .lineSpacing(4)
+    }
+    
+    private func ArrowView() -> some View {
+        HStack {
+            Button {
+                
+            } label: {
+                Image(systemName: "arrow.backward")
+                    .resizable()
+                    .foregroundColor(.white)
+                    .frame(width: 20, height: 20)
+            }
+            Spacer()
+            Button {
+                
+            } label: {
+                Image(systemName: "arrow.forward")
+                    .resizable()
+                    .foregroundColor(.white)
+                    .frame(width: 20, height: 20)
+            }
+        }
+        .padding(.horizontal, 32)
+        .padding(.bottom, 4)
     }
 }
 
