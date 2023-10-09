@@ -19,9 +19,11 @@ struct MainView: View {
                 BodyView()
             }
             VStack {
+                CalendarView()
                 Spacer()
                 ArrowView()
             }
+            .padding(.horizontal, 32)
         }
     }
 }
@@ -48,6 +50,21 @@ extension MainView {
             .lineSpacing(4)
     }
     
+    private func CalendarView() -> some View {
+        HStack {
+            Button {
+                
+            } label: {
+                Image(systemName: "calendar")
+                    .resizable()
+                    .foregroundColor(.white)
+                    .frame(width: 20, height: 20)
+            }
+            Spacer()
+        }
+        .padding(.top, 16)
+    }
+    
     private func ArrowView() -> some View {
         HStack {
             Button {
@@ -68,7 +85,6 @@ extension MainView {
                     .frame(width: 20, height: 20)
             }
         }
-        .padding(.horizontal, 32)
         .padding(.bottom, 4)
     }
 }
