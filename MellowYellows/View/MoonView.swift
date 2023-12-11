@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MoonView: View {
-    
+    @StateObject private var viewModel = MoonViewModel()
     @State private var thorb = false
     
     var body: some View {

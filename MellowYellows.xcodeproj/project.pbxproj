@@ -15,6 +15,7 @@
 		FD61D6292AC41ACA0049C636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD61D6282AC41ACA0049C636 /* Assets.xcassets */; };
 		FD61D62C2AC41ACA0049C636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD61D62B2AC41ACA0049C636 /* Preview Assets.xcassets */; };
 		FD8FC0882AC6BDDD008A6A64 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8FC0872AC6BDDD008A6A64 /* StarView.swift */; };
+		FDA0903F2AD424A700A2E4FE /* MoonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0903E2AD424A700A2E4FE /* MoonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FD61D6282AC41ACA0049C636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD61D62B2AC41ACA0049C636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD8FC0872AC6BDDD008A6A64 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		FDA0903E2AD424A700A2E4FE /* MoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		FD38D7AE2AC6997A00531E9B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FDA0903E2AD424A700A2E4FE /* MoonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				FD61D6272AC41AC90049C636 /* MainView.swift in Sources */,
 				FD38D7B62AC6B67700531E9B /* Color+.swift in Sources */,
 				FD8FC0882AC6BDDD008A6A64 /* StarView.swift in Sources */,
+				FDA0903F2AD424A700A2E4FE /* MoonViewModel.swift in Sources */,
 				FD0D7A332ACB9E0B00E8645C /* MoonView.swift in Sources */,
 				FD61D6252AC41AC90049C636 /* MellowYellowsApp.swift in Sources */,
 			);
